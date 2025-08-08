@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: rgb(13, 71, 13);
+  background-color: rgb(253, 245, 236);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  border-bottom: 1px solid gray;
+}
+
+.logo {
+  width: 200px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(13, 71, 13);
+}
+
+.nav-links a.active {
+  font-weight: bold;
+  border-bottom: 2px solid rgb(13, 71, 13);
+}
+
+.browse-button {
+  font-size: 16px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 7px;
+  background-color: rgb(13, 71, 13);
+  color: white;
+  cursor: pointer;
+}
+
+.section {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 800px;
+}
+
+.section h1,
+.section h2 {
+  margin-bottom: 15px;
+}
+
+.section h3 {
+  margin-top: 20px;
+}
+
+.section p,
+.section li {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.cta {
+  text-align: center;
+  background-color: rgb(231, 236, 238);
+  padding: 40px 20px;
+  border-radius: 12px;
+}
+
+footer {
+  display: flex;
+  justify-content: end;
+  gap: 18px;
+  margin: 30px 0 20px;
+}
